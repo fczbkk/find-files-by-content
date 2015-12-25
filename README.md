@@ -30,6 +30,8 @@ Function that will be called when check is done. Array of file paths will be pas
 
 ## Example
 
+I created this module because I needed a simple way to check my code for common problems before publishing. Here's how I use it: 
+
 ```javascript
 var findFilesByContent = require('find-files-by-content');
 
