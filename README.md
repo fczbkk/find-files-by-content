@@ -52,4 +52,4 @@ If you found any bugs, if you have feature requests or any questions, please, ei
 
 ## License
 
-Element Monitor is published under the [MIT license](https://github.com/fczbkk/find-files-by-content/blob/master/LICENSE).
+findFilesByContent is published under the [MIT license](https://github.com/fczbkk/find-files-by-content/blob/master/LICENSE).
