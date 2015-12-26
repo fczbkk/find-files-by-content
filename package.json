@@ -13,7 +13,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec",
-    "dev": "./node_modules/.bin/watch 'npm run test' ."
+    "dev": "./node_modules/.bin/watch 'npm run test' . --filter=tasks/watch-filter.js"
   },
   "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
   "license": "MIT",
