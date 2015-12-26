@@ -2,6 +2,8 @@
 
 Find files that contain specific content.
 
+[![Build Status](https://travis-ci.org/fczbkk/find-files-by-content.svg?branch=master)](https://travis-ci.org/fczbkk/find-files-by-content)
+
 ## Installation
 
 Use NPM:
@@ -30,7 +32,7 @@ Function that will be called when check is done. Array of file paths will be pas
 
 ## Example
 
-I created this module because I needed a simple way to check my code for common problems before publishing. Here's how I use it: 
+I created this module because I needed a simple way to check my code for common problems before publishing. Here's how I use it:
 
 ```javascript
 var findFilesByContent = require('find-files-by-content');
