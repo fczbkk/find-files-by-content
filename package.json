@@ -12,12 +12,14 @@
   "homepage": "https://github.com/fczbkk/find-files-by-content/#readme",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "dev": "./node_modules/.bin/watch 'npm run test' ."
   },
   "author": "Riki Fridrich <riki@fczbkk.com> (http://fczbkk.com/)",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "watch": "^0.17.1"
   },
   "dependencies": {
     "async": "^1.5.0",
